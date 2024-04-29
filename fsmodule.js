@@ -15,3 +15,12 @@ const a = fs.readFileSync('file.txt')
 console.log(a);
 
 console.log("Finished reading file")
+
+//To write a file
+fs.writeFile('file2.txt', 'Hello World', () => {
+    console.log("File created");
+});
+
+console.log("Finished writing file");
+
+//similar to readFileSync there's writeFileSync
