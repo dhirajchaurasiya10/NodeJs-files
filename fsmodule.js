@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 //To read a file
-//readFile le yo function ko full content naauni ber smma read grxa ani tespxi ko command execute garirahanxa 
-// tyaivayera finished reading file is printed first rather than contents of readFile
+//readFile le yo function ko full content naauni ber smma read grxa ani tespxi ko command execute garirahalxa 
+// tyaivayera finished reading file is printed first rather than contents of file.txt
 
 
 // fs.readFile('file.txt', 'utf8', (err, data)=> {
